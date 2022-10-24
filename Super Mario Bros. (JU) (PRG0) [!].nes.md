@@ -1,8 +1,8 @@
 ```
-$  sha1sum Super\ Mario\ Bros.\ \(Japan\,\ USA\).nes
-ea343f4e445a9050d4b4fbac2c77d0693b1d0922 *Super Mario Bros. (Japan, USA).nes
-$  md5sum Super\ Mario\ Bros.\ \(Japan\,\ USA\).nes
-811b027eaf99c2def7b933c5208636de *Super Mario Bros. (Japan, USA).nes
+$  sha1sum Super\ Mario\ Bros.\ \(JU\)\ \(PRG0\)\ \[\!\].nes
+ea343f4e445a9050d4b4fbac2c77d0693b1d0922 *Super Mario Bros. (JU) (PRG0) [!].nes
+$  md5sum Super\ Mario\ Bros.\ \(JU\)\ \(PRG0\)\ \[\!\].nes
+811b027eaf99c2def7b933c5208636de *Super Mario Bros. (JU) (PRG0) [!].nes
 ```
 
 ```
