@@ -34,10 +34,10 @@ $  md5sum Super\ Mario\ Bros.\ \(JU\)\ \(PRG0\)\ \[\!\].nes
 0010 78       sei       禁用可屏蔽中断
 0011 d8       cld       清除二进制编码的十进制模式
 0012 a9 10    lda #$10  A 寄存器赋值 0x10
-0014 8d 00 20 sta $2000
+0014 8d 00 20 sta $2000 A 寄存器的值写入内存 $2000
+0017 a2 ff    ldx #$ff  X 寄存器赋值 0xff
 ```
 
-8004   8d 00 20             sta $2000
 8007   a2 ff                ldx #$ff
 8009   9a                   txs
 800a   ad 02 20   l800a     lda $2002
