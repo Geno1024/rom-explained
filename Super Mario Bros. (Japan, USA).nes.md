@@ -1,12 +1,36 @@
 ```
+$  sha1sum Super\ Mario\ Bros.\ \(Japan\,\ USA\).nes
+ea343f4e445a9050d4b4fbac2c77d0693b1d0922 *Super Mario Bros. (Japan, USA).nes
+$  md5sum Super\ Mario\ Bros.\ \(Japan\,\ USA\).nes
+811b027eaf99c2def7b933c5208636de *Super Mario Bros. (Japan, USA).nes
+```
+
+```
 0000 4e 45 53 1a       NES 文件头
-0004 02                2 个 16kB ROM 块
-0005 01                1 个 8kB VROM 块
-0006 01                垂直镜像
-0007 00                不是 VS 系统
+0004 02                2 个 16kB PRG ROM 块
+0005 01                1 个 8kB CHR ROM 块
+0006 01
+     00000001
+     0000              Mapper 编号的低 4 位
+         0             有镜像控制
+          0            PRG 末尾没有 trainer
+           0           没有持久内存
+            1          垂直镜像
+0007 00
+     00000000
+     0000              Mapper 编号的高 4 位
+         00            iNES 1.0 格式
+           0           没有 PlayChoice-10
+            0          没有 VS 系统
 0008 00                0 个 8kB ROM 块
-0009 00                NTSC
+0009 00
+     00000000
+     0000000           保留位
+            0          NTSC
 000a 00 00 00 00 00 00 保留位
+```
+
+```
 0010 78
 ```
 
